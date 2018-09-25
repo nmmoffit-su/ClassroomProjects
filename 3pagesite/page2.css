@@ -1,0 +1,38 @@
+html, body { 
+    margin:0; 
+    padding:0; 
+    height:100%;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+}
+
+.header {
+    flex:0 0 100px; 
+    background-color:#df584a;
+}
+
+.main {
+    flex:1 0 0; 
+    display:flex;
+}
+
+.content, .sidebar {
+    margin:10px; 
+    background-color:#f9f9f9; 
+    border:1px solid #cacaca;
+}
+
+.content { 
+    flex: 3 1 0px; 
+}
+.sidebar { 
+    flex: 1 1 0px; 
+}
+
+.footer {
+    flex:0 0 100px; 
+    background-color:#444444;
+}

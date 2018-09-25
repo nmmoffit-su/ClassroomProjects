@@ -1,0 +1,64 @@
+body {
+    font:18px 'Arial', sans-serif; 
+}
+
+html, body {
+    margin:0; 
+    padding:0; 
+    height:100%;
+}
+
+body {
+    display:flex; 
+    align-items:center; 
+    justify-content:center;
+}
+
+.profilepic{
+    width:36px; 
+    height:36px; 
+    border-radius:50%;
+}
+
+.tweet-list {
+    display:flex; 
+    flex-wrap:wrap; 
+    width:1200px;
+}
+
+.tweet-item {
+    width:338px; 
+    margin:10px; 
+    border:1px solid #ccc; 
+    padding:20px; display:flex; 
+    flex-direction:column;
+}
+
+.tweet-header {
+    display:flex; 
+    align-items:center; 
+    padding-bottom:10px; 
+    border-bottom:1px solid #ccc;
+}
+.tweet-header img {
+    margin-right:10px;
+}
+.tweet-header a {
+    text-decoration:none; 
+    color:#000; 
+    font-weight:700;
+}
+.tweet-header a:hover {
+    text-decoration:underline;
+}
+
+.tweet-body {
+    padding:20px 0; 
+    flex:1 0 auto;
+}
+
+.tweet-footer {
+    text-align:right; 
+    padding-top:10px; 
+    border-top:1px solid #ccc;
+}
