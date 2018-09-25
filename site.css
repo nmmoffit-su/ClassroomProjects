@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    size: 1em;
+    line-height: 1.5    
+}
+
+.hero {
+    height:600px;
+    background:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/110808/36601901962_dde134d539_k.jpg');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work{
+    background-color: #01579B;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.work h2{
+    font-size: 2em;
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+
+.row .work-item{
+    font-size: 1.5em;
+}
+
+
+
+.header{
+    background-color: #01579B;
+}
+
+.header .twelve-columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+.header h1{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    font-style: none;
+    color: white;
+    padding: 0px;
+}
+
+
+h1{
+    size: 2em;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.button{
+    background-color: #01579B;
+    color: white;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin: 48px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .row .twelve-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.twelve-columns h1{
+    font-size: 2em;
+}
+
+.about{
+    background-color: #e2e2e2;
+    padding: 60px 0;
+}
+
+.about .row {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info h2{
+    font-family: 'Raleway' sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 0 24px 0; 
+}
+
+.what-we-do h2{
+        font-family: 'Raleway' sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+        margin: 0 0 24px 0; 
+        text-align: center;
+    }
+
+.what-we-do{
+    padding: 60px;
+}
+
+.what-we-do-item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row i{
+    color: #01579B;
+    font-size: 3em;
+    padding: 5px;
+}
+
+.row .what-we-do-item h3{
+    color: #01579B;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.testimonials{
+    background-color: #e3e3e3;
+    padding: 60px;
+}
+
+.testimonials h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.testimonials-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-text{
+    align-items: center;
+}
+
+.footer{
+    min-height: 100px;
+    background-color: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        padding:24px;
+        height: auto;
+    }
+
+    .navigation{
+        padding: 10px 0 0 0;
+    }
+
+    .hero h2{
+        font-size: 3em;
+    }
+
+    .header .twelve-columns{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .work .row {
+        flex-wrap: wrap;
+    }
+
+    .work-item {
+        flex-basis: 100%;
+    }
+
+    .what-we-do .row{
+        flex-wrap: wrap;
+    }
+
+    .row .what-we-do-item{
+        flex-basis: 50%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .header{
+        padding: 10px;
+    }
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .navigation li{
+        flex-basis: 33.333%;
+        text-align: center;
+    }
+
+    .hero h2{
+        display: flex;
+        flex-direction: column;
+        font-size: 3em;
+    }
+
+    .row .what-we-do-item{
+        flex-basis: 100%;
+        padding: 15px;
+    }
+
+    .testimonials{
+        padding: 0px;
+    }
+
+    .testimonials .row{
+        flex-direction: column;
+    }
+
+    .testimonials .testimonials-item-reversed{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
