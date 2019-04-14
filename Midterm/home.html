@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <nav class="navbar space-between">
+        <div class="container">
+            <div>
+                <img style="max-height: 48px;" src=images/logo.png>
+                <span class="text-white font-weight-bold">NPS</span>
+            </div>
+            <button class="navbar-toggler" type="button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+        <div class="home-hero">
+            <div class="home-hero-sizer">
+                <div class="home-hero-text">National Parks Service</div>
+    
+                <video class="home-hero-video" autoplay muted loop>
+                    <source src="videos/hero_video.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="state">
+        <div class="container text-center p-3">
+            <div class="find font-weight-bold">
+                Find A National Park
+            </div>
+            <div class="form-group text-left">
+                <label>Select a state: </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Select a state...</option>
+                    <option>Alabama</option>
+                    <option>Alaska</option>
+                </select>
+                <div class="text-center m-3">
+                    <button type="button" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="list row no-gutters">
+            <div class="picture col-xl-4 col-lg-6 col-md-12">
+                <img class="image" src="images/home/list_item_1.jpg">
+                <span class="caption"><a href="#">Watch Video</a></span>
+            </div>
+            <div class="picture col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img class="image" src="images/home/list_item_2.jpg">
+                <span class="caption"><a href="#">Tools for Educators</a></span>
+            </div>
+            <div class="picture col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img class="image" src="images/home/list_item_3.jpg">
+                <span class="caption"><a href="#">Monitoring Mammals</a></span>
+            </div>
+            <div class="picture col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img class="image" src="images/home/list_item_4.jpg">
+                <span class="caption"><a href="#">This Month's NPS Giveaway</a></span>
+            </div>
+            <div class="picture col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img class="image" src="images/home/list_item_5.jpg">
+                <span class="caption"><a href="#">Celebrating Hispanic Heritage</a></span>
+            </div>
+            <div class="picture col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img class="image" src="images/home/list_item_6.jpg">
+                <span class="caption"><a href="#">National Park News</a></span>
+            </div>
+            <div class="picture offset-xl-4 offset-lg-3 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <img class="image" src="images/home/list_item_7.jpg">
+                <span class="caption"><a href="#">Photos, Videos, Webcams, & More</a></span>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <div class="connected text-center font-weight-bold p-4">
+                Stay Connected
+            </div>
+            <div class="icons pb-3">
+                <div class="row border-bottom align-items-center">
+                    <i class="fab fa-facebook-square p-2"></i>
+                    <div class="facebook px-3 py-2">
+                        Facebook
+                    </div>
+                </div>
+                <div class="row border-bottom align-items-center">
+                    <i class="fab fa-twitter p-2"></i>
+                    <div class="twitter px-3 py-2">
+                        Twitter
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <i class="fab fa-instagram p-2"></i>
+                    <div class="insta px-3 py-2">
+                        Instagram
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="parks">
+            <div class="container">
+                <div class="park-header font-weight-bold p-4 text-center">
+                    Popular Parks
+                </div>
+                <div class="row">
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/acadia.jpg');">
+                            <span class="caption">Acadia</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/arches.jpg');">
+                            <span class="caption">Arches</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/big_bend.jpg');">
+                            <span class="caption">Big Bend</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/black_canyon.jpg');">
+                            <span class="caption">Black Canyon</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/bryce_canyon.jpg');">
+                            <span class="caption">Bryce Canyon</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/cuyahoga.jpg');">
+                            <span class="caption">Cuyahoga</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/glacier.jpg');">
+                            <span class="caption">Glacier</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/grand_teton.jpg');">
+                            <span class="caption">Grand Teton</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/kenai_fjords.jpg');">
+                            <span class="caption">Kenai Fjords</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/mount_rainier.jpg');">
+                            <span class="caption">Mount Rainer</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/rocky_mountain.jpg');">
+                            <span class="caption">Rocky Mountain</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/sequoia.jpg');">
+                            <span class="caption">Sequoia</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/shenandoah.jpg');">
+                            <span class="caption">Shenandoah</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/yellowstone.jpg');">
+                            <span class="caption">Yellowstone</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3">
+                        <div class="park-sizer" style="background-image: url('images/home/yosemite.jpg');">
+                            <span class="caption">Yosemite</span>
+                        </div>
+                    </div>
+                    <div class="park-item col-lg-3 col-md-4 col-6 py-3 offset-md-4 offset-lg-0">
+                        <div class="park-sizer" style="background-image: url('images/home/zion.jpg');">
+                            <span class="caption">Zion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </div>
+    <footer>
+        <div class="container">
+            <div class="foot-header text-center py-4">
+                <div class="head-text">
+                    <img src="images/footer_text.png">
+                </div>
+            </div>
+            <div class="foot-body text-center pt-3">
+                National Parks Service
+                <br>
+                U.S. Department of the Interior
+            </div>
+            <div class="foot-image text-center p-3">
+                <img src="images/logo.png">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
