@@ -1,0 +1,6 @@
+body {padding:60px 0;}
+#todo, #submit {border-radius:0px;}
+h2 {font-size: 1.5em;}
+.flex-item-1 {flex:1;}
+
+.list-group-item button {opacity:0;}
